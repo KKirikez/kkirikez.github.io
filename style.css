@@ -44,7 +44,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    padding-top: 10px;
     border-right: 2px solid rgb(237, 234, 239);
     min-width: 27%;
 }
@@ -65,7 +65,11 @@ nav {
     font-size: large;
     font-weight: lighter;
 }
-#navbar > a {
+#navbar *{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#navbar a {
     color: gray;
     text-decoration: none;
 }
@@ -112,6 +116,7 @@ nav {
     justify-content: center;
     color: gray;
 }
+/*Tablet*/
 @media only screen and (max-width: 800px){
     #content{
         flex-direction: column;
@@ -131,15 +136,29 @@ nav {
         border-bottom: 2px solid rgb(237, 234, 239);
         padding-bottom: 30px;
     }
-    #navbar *{
-        margin-left: 7px;
-        margin-right: 7px;
-    }
     .expBox {
         max-width: 100%;
     }
     .progressBar{
         max-width: 100%;
+    }
+}
+/* Phone */
+@media only screen and (max-width: 385px) {
+    body{
+        font-weight: bold;
+    }
+    #navbar a{
+        color: darkslategrey;
+    }
+    #navbar *{
+        font-size: 75%;
+        border-radius: 2px;
+        background-color: rgb(229, 220, 235);
+        border: 1px solid darkslategray;
+        padding: 2px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
 }
 /* Testing colours */
