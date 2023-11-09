@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 95%;
+}
+h1,#picPage h2,#picPage h3{
+    font-weight:lighter;
+    color:dimgray;
+}
+a{
+    text-decoration: none;
+    color: mediumpurple;
+}
+#content{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    min-height: 600px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+#aboutPage {
+    min-width: 70%;
+    padding-left: 25px;
+}
+#aboutPage article {
+    max-width: 75%;
+}
+#aboutPage p{
+    font-size: large;
+}
+#aboutPage label{
+    color: gray;
+}
+#aboutPage h1{
+    margin-bottom: 40px;
+}
+#aboutPage h3{
+    font-weight: normal;
+}
+#picPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    border-right: 2px solid rgb(237, 234, 239);
+    min-width: 27%;
+}
+#picPage > h3,#picPage > A{
+    margin-top: -10px
+}
+nav {
+    border-top: 3px solid purple;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 234, 239);
+}
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    color: mediumpurple;
+    font-size: large;
+    font-weight: lighter;
+}
+#navbar > a {
+    color: gray;
+    text-decoration: none;
+}
+.expBox {
+    display: flex;
+    max-width: 650px;
+    border-bottom: 2px solid rgb(237, 234, 239);
+    justify-content: space-between;
+}
+.expBoxRight{
+    padding-top: 6px;
+    text-align: right;
+}
+.progressBar {
+    border-radius: 5px;
+    min-height: 10px;
+    background-color: rgb(237, 234, 239);
+    max-width: 75%;
+}
+.progressBar >* {
+    border-radius: 5px;
+    min-height: 10px;
+    background-color: mediumpurple;
+}
+#progress1{
+    max-width: 100%;
+}
+#progress2{
+    max-width: 90%;
+}
+#progress3{
+    max-width: 90%;
+}
+#progress4{
+    max-width: 70%;
+}
+#picture {
+    border-radius: 50%;
+    border: 2px solid purple;
+    width: 200px;
+}
+#copyright {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+@media only screen and (max-width: 800px){
+    #content{
+        flex-direction: column;
+        padding-bottom: 75px;
+    }
+    #aboutPage{
+        padding-left: 0px
+    }
+    #aboutPage > h1{
+        text-align: center;
+    }
+    #aboutPage > article{
+        max-width: 100%;
+    }
+    #picPage {
+        border-right: none;
+        border-bottom: 2px solid rgb(237, 234, 239);
+        padding-bottom: 30px;
+    }
+    #navbar *{
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .expBox {
+        max-width: 100%;
+    }
+    .progressBar{
+        max-width: 100%;
+    }
+}
+/* Testing colours */
+/* #navbar{
+    background-color: orange;
+}
+nav {
+    background-color: aquamarine;
+}
+#picPage {
+    background-color: gold;
+}
+#aboutPage{
+    background-color: dodgerblue;
+}
+#content{
+    background-color: pink;
+} 
+.expBox{
+    background-color: aquamarine;
+}
+.expBoxLeft{
+    background-color: coral;
+}
+.expBoxCentre{
+    background-color: cyan;
+}
+.expBoxRight{
+    background-color: deeppink;
+} */
