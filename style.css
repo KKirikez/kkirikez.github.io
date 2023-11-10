@@ -153,12 +153,13 @@ nav {
     }
     #navbar a{
         color: black;
+        background-color: rgb(229, 220, 235);
     }
     #navbar *{
         font-size: 75%;
         border-radius: 3px;
         border: 1px solid gray;
-        background-color: rgb(229, 220, 235);
+        background-color: rgb(226, 210, 236);
         padding: 2px;
         padding-top: 4px;
         padding-bottom: 4px;
