@@ -94,18 +94,6 @@ nav {
     min-height: 10px;
     background-color: mediumpurple;
 }
-#progress1{
-    max-width: 100%;
-}
-#progress2{
-    max-width: 90%;
-}
-#progress3{
-    max-width: 90%;
-}
-#progress4{
-    max-width: 70%;
-}
 #picture {
     border-radius: 50%;
     border: 2px solid purple;
