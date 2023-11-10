@@ -148,8 +148,11 @@ nav {
     body{
         font-weight: normal;
     }
+    #navbar{
+        color: purple;
+    }
     #navbar a{
-        color: darkslategrey;
+        color: black;
     }
     #navbar *{
         font-size: 75%;
