@@ -95,6 +95,7 @@ nav {
     background-color: mediumpurple;
 }
 #picture {
+    background-image:url('backupImage.jpg');
     border-radius: 50%;
     border: 2px solid purple;
     width: 200px;
